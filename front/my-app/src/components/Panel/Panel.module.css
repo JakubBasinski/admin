@@ -1,0 +1,16 @@
+.toolbar {
+    background-color:  #7D9D9C;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18%;
+    padding: 0.5rem 0rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+    fill:  #354D51 ;
+
+}
+

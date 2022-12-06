@@ -1,0 +1,76 @@
+.form {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0EBE3;
+  padding: 2rem 0rem;
+  border:2px solid #E4DCCF;
+  border-radius: 5px;
+}
+
+.message {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color : #914859;
+  font-weight: 500;
+  font-size: larger;
+
+}
+
+.group {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.label,
+.conrol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #576F72;
+  font-weight: 500;
+}
+
+.header {
+    font-weight: 600;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #576F72
+}
+
+.button {
+  background-color: #7D9D9C !important;
+  border-color: #7D9D9C!important;
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  margin: auto;
+}
+
+.button:hover {
+    background-color:#6C8C8B!important;
+    border-color: #6C8C8B!important;
+}
+
+.toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #6C8C8B;
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  
+.toggle:hover {
+    color:  #8E9D9C;
+  }
+  
