@@ -1,5 +1,26 @@
 .navbar {
-   background-color: #576F72  !important;
-   padding: 1rem 0 !important;
-   align-items: center;
+  background-color: #576f72 !important;
+  padding: 1rem 0 !important;
+  align-items: center;
 }
+
+.info {
+  height: 3rem;
+  width: auto;
+  position: fixed;
+  top: 6rem;
+  right: 3rem;
+}
+
+.info:hover {
+   transform: scale(1.1);
+}
+
+/* height: '3rem',
+with: 'auto',
+position: 'fixed',
+top: ' 5rem',
+right: '2rem',
+'&:hover' : {
+  backgroundColor:'white'
+} */

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import AuthContext from '../../store/auth-context';
 import classes from './Navigation.module.css';
 import { useContext } from 'react';
+import adminPdf from '../../assets/Admin.pdf'
+import infoLogo from '../../assets/info.png'
 
 const Navigation = () => {
   const authCtx = useContext(AuthContext);
@@ -18,6 +20,13 @@ const Navigation = () => {
         </Navbar.Brand>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
+          <a href={adminPdf} target="_blank">
+            <img
+              src={infoLogo}
+              alt=""
+              className={classes.info}
+            />
+          </a>
             {isLoggedIn && (
               <Nav.Link as={Link} to="/panel">
                 Admin panel
